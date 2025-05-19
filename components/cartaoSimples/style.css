@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  width: 300px;
+  height: auto;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 15px;
+  gap: 10px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 75%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+}
+
+.person-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bigraphy {
+  font-size: 14px;
+  text-align: justify;
+}
