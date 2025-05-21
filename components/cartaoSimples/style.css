@@ -1,4 +1,4 @@
-.card {
+/* .card {
   display: flex;
   width: 300px;
   height: auto;
@@ -7,18 +7,32 @@
   border-radius: 5px;
   padding: 15px;
   gap: 10px;
-}
+} */
 
-.avatar {
-  display: flex;
-  align-items: center;
-}
 
 .avatar-pic {
   width: 60px;
   height: 60px;
   border-radius: 75%;
+  overflow: hidden;
+  position: relative;
 }
+
+.avatar-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 75%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.person-details {
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*
 
 .card-body {
   display: flex;
@@ -35,4 +49,4 @@
 .bigraphy {
   font-size: 14px;
   text-align: justify;
-}
+} */
