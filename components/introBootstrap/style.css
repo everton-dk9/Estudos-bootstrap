@@ -1,0 +1,20 @@
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.art-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.art-content-preview {
+  font-size: 14px;
+}
