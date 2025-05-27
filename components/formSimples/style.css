@@ -1,0 +1,18 @@
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.form-control, .form-control:focus {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid grey;
+}
+
+.form-control::placeholder {
+  color: #adb5bd;
+}
+
+.card-wrapper-bg {
+  background-color: #282c30;
+}
