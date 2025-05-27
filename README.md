@@ -1,5 +1,59 @@
 # Prática Bootstrap
 
+## Atividade 01
+
+Nesta atividade, você irá criar um layout de página web responsivo utilizando os principais recursos do Bootstrap 5: containers, margens, paddings, sistema de grid e Flexbox. O objetivo é solidificar seu entendimento sobre como combinar essas ferramentas para estruturar o conteúdo de forma eficaz e adaptável a diferentes dispositivos.
+
+
+Imagine que você precisa criar a estrutura básica de uma página inicial para um blog sobre tecnologia. Essa página deve conter um cabeçalho, uma seção principal com artigos em destaque e uma barra lateral com informações adicionais, além de um rodapé. O layout deve se ajustar bem em telas grandes (desktop), tablets e smartphones.
+
+
+
+
+    Crie um arquivo HTML chamado index.html.
+    Adicione a estrutura básica de um documento HTML5 ( <!DOCTYPE html>, <html>, <head>, <body>).
+    Inclua a folha de estilos do Bootstrap 5. Você pode fazer isso adicionando a seguinte linha dentro da tag <head>:
+
+
+    Dentro da tag <body>, crie um elemento <header> e um elemento <main>.
+    Dentro de cada um desses elementos, utilize um container do Bootstrap para centralizar o conteúdo e definir uma largura máxima responsiva. Escolha entre .container (largura fixa em diferentes breakpoints) ou .container-fluid (largura total). Para esta atividade, use .container.
+
+
+    Dentro do <header>, crie elementos para o título do blog e uma possível navegação (mesmo que vazia).
+    Utilize as classes de Flexbox do Bootstrap (d-flex, justify-content-between, align-items-center) para alinhar o título à esquerda e a navegação à direita.
+    Adicione classes de padding (py-3) para espaçamento vertical dentro do cabeçalho.
+
+
+    Dentro da <main> e da div com a classe row, utilize o sistema de grid do Bootstrap para dividir o espaço em colunas.
+    Para telas grandes (acima de 992px), a seção principal deve ocupar 8 colunas (col-lg-8) e a barra lateral 4 colunas (col-lg-4).
+    Para telas menores (abaixo de 992px), ambas devem ocupar a largura total (col-12), com a barra lateral aparecendo abaixo da seção principal.
+    Dentro da seção principal, crie alguns elementos representando artigos em destaque.
+    Dentro da barra lateral, adicione algum conteúdo simulado (ex: links para categorias, informações sobre o autor).
+    Utilize classes de margin (mb-4 na seção principal para espaçamento abaixo dos artigos) e padding (p-3 na barra lateral para espaçamento interno).
+
+
+    Dentro do <footer>, adicione informações de direitos autorais ou outros links.
+    Utilize as classes de Flexbox (d-flex, justify-content-center, align-items-center) para centralizar o conteúdo do rodapé.
+    Adicione classes de padding (py-3) e uma cor de fundo (bg-light).
+
+
+    Salve o arquivo index.html e abra-o em seu navegador.
+    Redimensione a janela do navegador para observar como o layout se adapta a diferentes tamanhos de tela, demonstrando a responsividade do Bootstrap.
+
+
+
+
+    Tente substituir .container por .container-fluid e veja a diferença.
+    Utilize classes como mt-, mb-, ms-, me-, pt-, pb-, ps-, pe- com diferentes valores (0 a 5 e auto) para ajustar o espaçamento entre os elementos.
+    Use as classes de grid responsivas (col-md-, col-sm-, col-xs- - lembrando que col- sem sufixo se aplica a todos os tamanhos) para criar layouts mais complexos em diferentes dispositivos.
+    Experimente justify-content-start, justify-content-around, align-items-start, align-items-end, align-self-start, etc.
+    Enriqueça o conteúdo da seção principal e da barra lateral para visualizar melhor o layout com mais informações.
+    Se desejar, adicione suas próprias regras de CSS para personalizar ainda mais a aparência dos elementos.
+
+Ao completar esta atividade, você terá praticado a combinação dos principais recursos de layout do Bootstrap 5, construindo uma estrutura de página responsiva e organizada. Este é um passo fundamental para criar interfaces web modernas e adaptáveis.
+
+## Atividade 02
+
 Instruções Gerais para os Alunos: Para cada questão, crie um arquivo HTML com a estrutura básica necessária e um arquivo CSS vinculado para aplicar os estilos. Concentre-se em usar as propriedades de layout mencionadas para alcançar o resultado visual descrito. Considere a responsividade, mesmo que não explicitamente solicitada em todas as questões.
 Questões Práticas:
 
